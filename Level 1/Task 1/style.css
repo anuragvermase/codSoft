@@ -18,7 +18,7 @@
   --second-color: #e4e4e4;
   --other-color: #c6c9d8bf;
 
-  --h1-font: 7rem;
+  --h1-font: 6rem;
   --h2-font: 3.5rem;
   --p-font: 1.1rem;
 }
@@ -69,4 +69,60 @@ a:hover {
   z-index: 1001;
   cursor: pointer;
   display: none;
+}
+
+section {
+  padding: 120px 19% 100px;
+}
+.home {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero-text h3 {
+  color: var(--second-color);
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  word-spacing: 10px;
+}
+.hero-text h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: var(--h1-font);
+  color: var(--text-color);
+  font-weight: 800;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.hero-text h4 {
+  color: var(--second-color);
+  font-size: 25px;
+  font-weight: 600;
+  word-spacing: 8px;
+  margin-bottom: 3.5rem;
+}
+
+#profile-1 img {
+  display: flex;
+  justify-content: flex-end;
+  height: 350px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 45px;
+  background: var(--main-color);
+  color: var(--text-color);
+  font-size: var(--p-font);
+  font-weight: 600;
+  border: 2px solid var(--main-color);
+  transition: all ease 0.5s;
+}
+.btn:hover {
+  transform: translateX(5px);
+  background: transparent;
+  border: 2px solid var(--main-color);
 }
