@@ -509,4 +509,9 @@ footer {
   .skill-item {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
+  .end-section i {
+    height: 35px;
+    width: 35px;
+    margin: 0 5px;
+  }
 }
