@@ -29,9 +29,22 @@ body {
   margin-bottom: 10px;
   font-size: 25px;
   color: #000e1a;
+  pointer-events: none;
 }
 .buttons {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.buttons button:active {
 }
