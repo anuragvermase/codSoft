@@ -8,6 +8,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #fff6e0;
+  font-family: "Roboto", sans-serif;
 }
 form {
   width: 80%;
@@ -21,16 +23,38 @@ form * {
 table {
   width: 80%;
 }
+
 td,
 th {
   border: 1px solid black;
   height: 30px;
 }
 h1 {
-  color: rgb(117, 84, 206);
+  color: #a27b5c;
+  margin-top: 50px;
 }
+
+body > form > input[type="text"]:nth-child(1) {
+  height: 30px;
+}
+body > form > input[type="submit"]:nth-child(2) {
+  height: 25px;
+  font-weight: 600;
+  font-size: large;
+  background-color: #272829;
+  color: #fff;
+  border-radius: 7px;
+}
+body > table > thead > tr {
+  background-color: #dcd7c9;
+  font-size: larger;
+}
+body > table > tbody {
+  background-color: #d8d9da;
+}
+
 td[onclick] {
-  background-color: blue;
+  background-color: #61677a;
   color: #fff;
   border-radius: 7px;
   cursor: pointer;
@@ -40,5 +64,8 @@ td[onclick] {
 body > table > tbody {
   text-align: center;
   font-size: larger;
-  font-weight: 500;
+}
+
+body > table {
+  margin-top: 15px;
 }
