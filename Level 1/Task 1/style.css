@@ -81,6 +81,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  background: var(--second-bg-color);
 }
 .hero-text h3 {
   color: var(--second-color);
@@ -235,11 +236,42 @@ span {
   border: 1px solid #4e5055;
 }
 
+/* project section  */
+.project-item {
+  flex-direction: row;
+}
+.project-box {
+  display: flex;
+  flex-flow: row;
+}
+.project-box > a > img {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  border: 2px solid white;
+}
+
+.project-text h3 {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.project p {
+  margin: 0px 20px;
+  color: var(--other-color);
+  font-size: var(--p-font);
+  line-height: 30px;
+  margin-bottom: 3rem;
+}
+
 .contact {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, auto));
   align-items: center;
   gap: 5rem;
+  background: var(--second-bg-color);
 }
 .left-contact {
   display: flex;
