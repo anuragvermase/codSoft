@@ -472,6 +472,36 @@ footer {
     font-weight: 600;
     letter-spacing: 1px;
   }
+  .project-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-box {
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: 1fr; */
+    gap: 20px;
+  }
+  .project-text h3 {
+    margin-top: 40px;
+    /* margin-left: 40px; */
+    margin-bottom: 0.2rem;
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  .project p {
+    color: var(--other-color);
+    font-size: var(--p-font);
+    line-height: 25px;
+    margin-bottom: 0.2rem;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .project-btn {
+    float: right;
+  }
   /* #menu-icon {
     display: block;
   }
@@ -514,6 +544,17 @@ footer {
   .btn {
     padding: 10px 35px;
   }
+
+  .project-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .project-btn {
+    float: left;
+    margin-top: 2rem;
+  }
+
   .left-contact {
     gap: 1.2rem;
   }
