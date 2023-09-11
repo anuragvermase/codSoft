@@ -472,19 +472,19 @@ footer {
     font-weight: 600;
     letter-spacing: 1px;
   }
-  .project-items {
+  /* .project-items {
     display: flex;
     flex-direction: column;
   }
   .project-box {
     display: flex;
     flex-direction: row;
-    /* grid-template-columns: 1fr; */
+    /* grid-template-columns: 1fr; 
     gap: 20px;
   }
   .project-text h3 {
     margin-top: 40px;
-    /* margin-left: 40px; */
+    /* margin-left: 40px; 
     margin-bottom: 0.2rem;
     font-size: 23px;
     font-weight: 700;
@@ -501,7 +501,7 @@ footer {
 
   .project-btn {
     float: right;
-  }
+  } */
   /* #menu-icon {
     display: block;
   }
@@ -534,7 +534,7 @@ footer {
   :root {
     --h1-font: 3.5rem;
     --h2-font: 2.2rem;
-    --p-font: 12px;
+    --p-font: 0.8;
   }
   .hero-text h4 {
     font-size: 18px;
@@ -544,15 +544,18 @@ footer {
   .btn {
     padding: 10px 35px;
   }
-
+  .project-items {
+    display: flex;
+    flex-direction: column;
+  }
   .project-box {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
   }
   .project-btn {
-    float: left;
-    margin-top: 2rem;
+    /* float: left; */
+    margin-top: 1rem;
   }
 
   .left-contact {
