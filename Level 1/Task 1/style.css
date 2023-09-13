@@ -27,6 +27,9 @@ body {
   color: var(--text-color);
   background: var(--bg-color);
 }
+
+/* header section  */
+
 header {
   position: fixed;
   top: 0;
@@ -74,6 +77,9 @@ a:hover {
 section {
   padding: 120px 19% 100px;
 }
+
+/* hero section  */
+
 .home {
   position: relative;
   min-height: 100vh;
@@ -106,13 +112,6 @@ section {
   word-spacing: 8px;
   margin-bottom: 3.5rem;
 }
-/* 
-#profile-1 img {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  height: auto;
-} */
 
 .btn {
   display: inline-block;
@@ -129,6 +128,9 @@ section {
   background: transparent;
   border: 2px solid var(--main-color);
 }
+
+/* about section  */
+
 .about {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -175,15 +177,12 @@ span {
   font-weight: 800;
   margin-bottom: 10px;
 }
-/* .text-center h4 {
-  font-size: 22px;
-  font-weight: 500;
-} */
+
+/* skill section  */
 
 .skill-item {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  /* grid-template-rows: repeat(2, 1fr); */
   align-items: center;
   gap: 1.8rem;
   text-align: center;
@@ -214,40 +213,21 @@ span {
   font-size: var(--p-font);
   line-height: 30px;
   margin-bottom: 1.5rem;
-  /* text-align: justify; */
 }
 
-/* .s-btnn {
-  display: inline-block;
-  padding: 9px 24px;
-  background: var(--main-color);
-  color: var(--text-color);
-  font-size: 15px;
-  font-weight: 500;
-  border: 2px solid var(--main-color);
-  border-radius: 2rem;
-  transition: all ease 0.05s;
-}
-.s-btnn:hover {
-  transform: scale(1.1);
-  background: transparent;
-  border: 2px solid var(--main-color);
-} */
 .skill-box:hover {
   transform: translateY(-8px);
   border: 1px solid #4e5055;
 }
 
 /* project section  */
+
 .project-items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  /* flex-direction: row; */
 }
-/* .project-box {
-  /* flex-flow: row; 
-} */
+
 .project-box > a > img {
   width: 100%;
   margin-top: 40px;
@@ -256,13 +236,12 @@ span {
 
 .project-text h3 {
   margin-top: 40px;
-  /* margin-left: 40px; */
+
   margin-bottom: 2rem;
   font-size: 23px;
   font-weight: 700;
 }
 .project p {
-  /* margin: ; */
   color: var(--other-color);
   font-size: var(--p-font);
   line-height: 30px;
@@ -277,7 +256,6 @@ span {
   color: var(--text-color);
   font-size: var(--p-font);
   font-weight: 600;
-  /* margin-left: 40px; */
   border: 2px solid var(--main-color);
   transition: all ease 0.5s;
 }
@@ -287,6 +265,8 @@ span {
   background: transparent;
   border: 2px solid var(--main-color);
 }
+
+/* contact Section  */
 
 .contact {
   display: grid;
@@ -324,28 +304,13 @@ span {
   margin-bottom: 20px;
 }
 
-/* .right-contact a {
-  display: inline-block;
-  color: var(--main-color);
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
-  border-bottom: 2px solid var(--main-color);
-  padding: 3px 0;
-  transition: all ease 0.4s;
-}
-.right-contact a:hover {
-  transform: translateY(-5px);
-  color: var(--text-color);
-  border-bottom: 2px solid var(--text-color);
-} */
-
 .right-contact p {
   color: var(--other-color);
   font-size: var(--p-font);
   line-height: 20px;
 }
+
+/* end section  */
 
 .end-section {
   padding: 80px 19% 70px;
@@ -386,6 +351,9 @@ span {
   background: transparent;
   border: 2px solid var(--main-color);
 }
+
+/* scroll  */
+
 .scroll-bttn {
   position: fixed;
   right: 2.2rem;
@@ -396,12 +364,17 @@ span {
   padding: 9px;
   border-radius: 0.8rem;
 }
+
+/* footer  */
+
 footer {
   text-align: center;
   padding: 40px;
   background-color: var(--bg-color);
   color: var(--second-color);
 }
+
+/* media query */
 
 @media (max-width: 1600px) {
   header {
@@ -472,59 +445,6 @@ footer {
     font-weight: 600;
     letter-spacing: 1px;
   }
-  /* .project-items {
-    display: flex;
-    flex-direction: column;
-  }
-  .project-box {
-    display: flex;
-    flex-direction: row;
-    /* grid-template-columns: 1fr; 
-    gap: 20px;
-  }
-  .project-text h3 {
-    margin-top: 40px;
-    /* margin-left: 40px; 
-    margin-bottom: 0.2rem;
-    font-size: 23px;
-    font-weight: 700;
-  }
-
-  .project p {
-    color: var(--other-color);
-    font-size: var(--p-font);
-    line-height: 25px;
-    margin-bottom: 0.2rem;
-    text-align: justify;
-    font-size: 15px;
-  }
-
-  .project-btn {
-    float: right;
-  } */
-  /* #menu-icon {
-    display: block;
-  }
-  .navlist {
-    position: absolute;
-    top: -800px;
-    right: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    padding: 20px 0;
-    text-align: left;
-    transition: all 0.5s ease;
-  }
-  .navlist a {
-    display: block;
-    font-size: 22px;
-    padding: 12px 0;
-  }
-  .navlist.open {
-    top: 100%;
-  } */
 }
 
 @media (max-width: 740px) {
@@ -554,7 +474,6 @@ footer {
     gap: 20px;
   }
   .project-btn {
-    /* float: left; */
     margin-top: 1rem;
   }
 
